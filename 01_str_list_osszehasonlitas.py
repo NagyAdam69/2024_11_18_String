@@ -19,9 +19,12 @@ for betu in sztring:
         szamlalo += 1
 print(f'A sztringben {szamlalo} db e/E betű van.')
 
+e_betuk = sztring.count("e") + sztring.count("E")
+print(e_betuk)
+
     # Ezeknél is használható az in operátor
-if 'e' in sztring:
-    print('Van benne e betű.')
-else:
-    print('Nincs benne e betű.')
+# if 'e' in sztring:
+#     print('Van benne e betű.')
+# else:
+#     print('Nincs benne e betű.')
 
