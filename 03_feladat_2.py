@@ -3,9 +3,9 @@ Az előbbi programot módosítsd úgy, hogy újabb és újabb mondatot kérjen b
 (amig a felhasználó csak egy ENTER-t nem üt), majd állapítsa meg, és írja ki mineden egyes alkalommal a mondat fajtáját!"""
 
 while True:
-    megadott_mondat = input("Kérlek adj meg egy mondatot: ")
+    megadott_mondat = input("\nKérlek adj meg egy mondatot: ")
     if megadott_mondat == "":
-        print("Program vége")
+        print("\nProgram vége")
         break
     elif megadott_mondat[-1] == ".":
         print("Ez a mondat egy kijelentő mondat")
